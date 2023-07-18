@@ -1,6 +1,6 @@
 import logo from "../../public/logo.svg";
 import { useState } from "react";
-import {BsFacebook} from "react-icons/bs"
+import { BsFacebook } from "react-icons/bs";
 interface IFooter {
   className: string;
 }
@@ -13,7 +13,7 @@ const Footer = ({ className }: IFooter) => {
 
   return (
     <div className={className}>
-      <div className="d-flex justify-content-between align-items-center mb-3">
+      <div className="d-flex flex-wrap justify-content-between align-items-center mb-3">
         <a href="#">
           <img src={logo} alt="" />
         </a>
@@ -35,7 +35,7 @@ const Footer = ({ className }: IFooter) => {
         </ul>
 
         <div className="social-media">
-            <BsFacebook/>
+          <BsFacebook />
         </div>
       </div>
     </div>
