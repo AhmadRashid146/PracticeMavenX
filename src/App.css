@@ -1,0 +1,71 @@
+.nav-item {
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+nav .active {
+  background-color: rgb(5, 150, 105) !important;
+  color: white;
+}
+.herodiv .herodiv-div {
+  width: 100%;
+  height: auto;
+}
+
+.activebtn {
+  background-color: rgb(5, 150, 105) !important;
+  color: white !important;
+  max-width: max-content;
+}
+
+.cross-icon {
+  top: 10px;
+  right: 10px;
+  font-size: 30px;
+}
+.brands img {
+  margin: 10px 0;
+}
+.srvc-bg{
+  background-color: rgb(229, 231, 235);
+}
+
+.service-card-div{
+  gap: 1.5rem;
+}
+.service-card{
+  background-color: rgb(255, 255, 255);
+  border-color: rgb(229, 231, 235);
+  border-radius: 8px;
+  line-height: 24px;
+  padding: 24px;
+  min-height:250px ;
+  padding-top: 100px;
+  width: 100%;
+  min-width: 200px;
+  
+}
+
+.testimonial-card{
+  border: 1px solid rgb(229 231 235 );
+  padding: 32px;
+  border-radius: 8px;
+}
+.img-div img{
+ width: 60px;
+ border-radius: 100%;
+}
+
+
+.start-div{
+  background-color: rgb(5 150 105);
+  color: white;
+  border-radius: 10px;
+  padding: 100px 0 !important;
+}
+
+.footer-list{
+  list-style-type: none;
+}
